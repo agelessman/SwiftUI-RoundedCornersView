@@ -6,7 +6,7 @@ In SwiftUI, you can freely set the corners of the View
 ```swift
 Text("大圣，")
     .font(.title2)
-    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+    .padding(.all, 10)
     .background(RoundedCornersView(color: .green,
                                    topLeading: 0,
                                    topTrailing: 30,
